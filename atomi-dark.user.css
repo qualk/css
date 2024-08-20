@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name           Atomi Dark
+@version        0.1
+@description    A dark theme for Atomi
+@author         qualk <qualk@qualk.xyz> (https://www.qualk.xyz)
+@namespace      qualk
+==/UserStyle== */
+@-moz-document url-prefix("https://learn.getatomi.com/subscriptions/") {
+    :root {
+		--gc-bg: #1b1b1b;
+		--gc-element: #262626;
+		--gc-subelement: #3c3c3c;
+		--gc-subelement-hover: #5e5e5e;
+		--gc-popup: #1d1d1d;
+		--gc-h1: #ddd;
+		--gc-h2: #bbb;
+		--gc-text: #fff;
+		--text
+	}
+
+	/* Body */
+	body {
+		background: var(--gc-bg);
+	}
+
+	.evFXcn {
+		border-radius: 30px;
+	}
+
+	.jkzSMN {
+		color: var(--gc-h1)
+	}
+
+	.hXghTv {
+		background: var(--gc-subelement) border-color: rgb(175, 177, 181)
+	}
+
+	.eNtgxV {
+		background: var(--gc-element)
+	}
+
+	.cXAKUK {
+		border-radius: 10px
+	}
+
+	.kcWUen {
+		color: rgb(150, 180, 230)
+	}
+
+	.jtcgJi {
+		color: rgb(120, 128, 138)
+	}
+
+	.Nav-module__link___rYKNO {
+		color: var(--gc-text)
+	}
+
+	.Nav-module__isActive___udVOx {
+		color: #0057ff
+	}
+
+	.ghaREo,
+	.kcZFXv {
+		color: var(--gc-text)
+	}
+
+	.jJRtXl {
+		color: var(--gc-h1)
+	}
+
+	.frZHUg {
+		color: var(--gc-h2)
+	}
+}
