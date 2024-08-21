@@ -9,21 +9,13 @@
 	:root {
 		--bg: #09090B;
 		--background: oklch(13.71% 0.036 258.53);
-		--foreground: 210 40% 98%;
 		--card: 222.2 84% 4.9%;
-		--card-foreground: 210 40% 98%;
 		--popover: 222.2 84% 4.9%;
-		--popover-foreground: 210 40% 98%;
-		--primary: 217.2 91.2% 59.8%;
-		--primary-foreground: 222.2 47.4% 11.2%;
+		--primary: oklch(62.32% 0.188 259.8);
 		--secondary: 217.2 32.6% 17.5%;
-		--secondary-foreground: 210 40% 98%;
 		--muted: 217.2 32.6% 17.5%;
-		--muted-foreground: 215 20.2% 65.1%;
 		--accent: 217.2 32.6% 17.5%;
-		--accent-foreground: 210 40% 98%;
-		--destructive: 0 62.8% 30.6%;
-		--destructive-foreground: 210 40% 98%;
+		--destructive: oklch(39.59% 0.133 25.72);
 		--h1: #ddd;
 		--h2: #bbb;
 		--text: #fff;
@@ -33,7 +25,10 @@
 	body {
 		background: var(--bg);
 	}
-
+    
+    .AFcuj {
+        display: none
+    }
 
 	.jkzSMN,
 	.jJRtXl,
@@ -103,9 +98,14 @@
 	.jPYdpD div:first-child {
 		border-radius: 15px
 	}
+    
+    .fbQVYU {
+        border-color: var(--border)
+    }
 
 	.IconWrapper_root__iz2Kr,
-	.cCUxLF div:first-child {
+	.cCUxLF div:first-child,
+    .fbQVYU {
 		filter: invert(100%) hue-rotate(180deg);
 	}
 
