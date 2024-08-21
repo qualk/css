@@ -6,44 +6,66 @@
 @namespace      qualk
 ==/UserStyle== */
 @-moz-document url-prefix("https://learn.getatomi.com/subscriptions/") {
-    :root {
-		--gc-bg: #1b1b1b;
-		--gc-element: #262626;
-		--gc-subelement: #3c3c3c;
-		--gc-subelement-hover: #5e5e5e;
-		--gc-popup: #1d1d1d;
-		--gc-h1: #ddd;
-		--gc-h2: #bbb;
-		--gc-text: #fff;
-		--text
+	:root {
+		--bg: #09090B;
+		--background: oklch(13.71% 0.036 258.53);
+		--foreground: 210 40% 98%;
+		--card: 222.2 84% 4.9%;
+		--card-foreground: 210 40% 98%;
+		--popover: 222.2 84% 4.9%;
+		--popover-foreground: 210 40% 98%;
+		--primary: 217.2 91.2% 59.8%;
+		--primary-foreground: 222.2 47.4% 11.2%;
+		--secondary: 217.2 32.6% 17.5%;
+		--secondary-foreground: 210 40% 98%;
+		--muted: 217.2 32.6% 17.5%;
+		--muted-foreground: 215 20.2% 65.1%;
+		--accent: 217.2 32.6% 17.5%;
+		--accent-foreground: 210 40% 98%;
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 210 40% 98%;
+		--h1: #ddd;
+		--h2: #bbb;
+		--text: #fff;
+		--border: #1E293B;
 	}
 
-	/* Body */
 	body {
-		background: var(--gc-bg);
+		background: var(--bg);
 	}
 
-	.evFXcn {
-		border-radius: 30px;
-	}
 
-	.jkzSMN {
-		color: var(--gc-h1)
+	.jkzSMN,
+	.jJRtXl,
+	/* my classes title */
+	.ztphL h1:first-child {
+		color: var(--h1)
 	}
 
 	.hXghTv {
-		background: var(--gc-subelement) border-color: rgb(175, 177, 181)
+		background: var(--card);
+		border-color: var(--border)
 	}
 
+	/* header root */
+	.Header-module__header___V0UDm {
+		border-bottom-color: var(--border)
+	}
+
+	/* header */
 	.eNtgxV {
-		background: var(--gc-element)
+		background: var(--bg)
 	}
 
 	.cXAKUK {
-		border-radius: 10px
+		background: var(--background);
+		border-width: 2px;
+		border-color: var(--border);
+		border-radius: 15px
 	}
 
-	.kcWUen {
+	.kcWUen/* class card title */
+	{
 		color: rgb(150, 180, 230)
 	}
 
@@ -51,24 +73,48 @@
 		color: rgb(120, 128, 138)
 	}
 
-	.Nav-module__link___rYKNO {
-		color: var(--gc-text)
-	}
-
 	.Nav-module__isActive___udVOx {
-		color: #0057ff
+		color: #167BF8 !important
 	}
 
 	.ghaREo,
-	.kcZFXv {
-		color: var(--gc-text)
+	/* welcome text */
+	.kcZFXv,
+	/* student name text */
+	.Nav-module__link___rYKNO/* tab text */
+	{
+		color: var(--text)
 	}
 
-	.jJRtXl {
-		color: var(--gc-h1)
+	.frZHUg,
+	.gaXtWY,
+	.SectionListItem-module__heading___TZbXY h2:first-child {
+		color: var(--h2)
 	}
 
-	.frZHUg {
-		color: var(--gc-h2)
+	/* class cards */
+	.evFXcn {
+		background: var(--background);
+		border-width: 2px;
+		border-color: var(--border);
+		border-radius: 15px
+	}
+
+	.jPYdpD div:first-child {
+		border-radius: 15px
+	}
+
+	.IconWrapper_root__iz2Kr,
+	.cCUxLF div:first-child {
+		filter: invert(100%) hue-rotate(180deg);
+	}
+
+	/* alert banner */
+	.Alert_isBanner__eo5ab {
+		display: none
+	}
+
+	.PostSummary_name__p8Inc {
+		color: var(--text)
 	}
 }
